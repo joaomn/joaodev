@@ -1,7 +1,12 @@
 <div class="principal">
   <div class="logo">
-    <button (click)="changeLanguage('en')">English</button>
-    <button (click)="changeLanguage('pt')">Português</button>
+
+    <img class="bandeira" src="/icons8-brasil-emoji-48.png" (click)="changeLanguage('pt')">
+
+    <img class="bandeira" src="/icons8-emoji-dos-estados-unidos-48.png" (click)="changeLanguage('en')">
+  </div>
+  <div class="joao">
+    <img src="/image-removebg-preview.png">
   </div>
       <div class="card">
         <p><span>{{'ABOUT' | translate}}</span></p>

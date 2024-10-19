@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import {TranslatePipe, TranslateDirective} from "@codeandweb/ngx-translate";
 import { TranslateService } from "@codeandweb/ngx-translate";
+import { TooltipModule } from 'primeng/tooltip';
 @Component({
   selector: 'menubar',
   standalone: true,
-  imports: [TranslatePipe, TranslateDirective],
+  imports: [TranslatePipe, TranslateDirective, TooltipModule],
   templateUrl: './menubar.component.html',
   styleUrl: './menubar.component.css'
 })
