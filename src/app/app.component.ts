@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MenubarComponent } from './menubar/menubar.component';
 import {
@@ -7,15 +7,26 @@ import {
   TranslateDirective
 } from "@codeandweb/ngx-translate";
 
+import { LoadingPageComponent } from './loading-page/loading-page.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MenubarComponent, TranslatePipe, TranslateDirective],
+  imports: [RouterOutlet, MenubarComponent, TranslatePipe, TranslateDirective, LoadingPageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'portifolio-joao';
+
+  @ViewChild(LoadingPageComponent) loadingComponent!: LoadingPageComponent;
+
+  ngOnInit() {
+    // Simule um tempo de carregamento
+    setTimeout(() => {
+      this.loadingComponent.hideLoading();
+    }, 5000); // tempo de 3 segundos
+  }
 
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['pt', 'en']);
