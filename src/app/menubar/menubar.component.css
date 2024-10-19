@@ -104,3 +104,6 @@
   100% { transform: translateX(0); }
 }
 
+.joao img{
+  cursor: pointer;
+}

@@ -18,4 +18,7 @@ export class MenubarComponent {
     this.translate.use(lang);
   }
 
+   reloadPage(): void {
+    window.location.reload();
+}
 }
