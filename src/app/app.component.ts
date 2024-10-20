@@ -9,10 +9,12 @@ import {
 
 import { LoadingPageComponent } from './loading-page/loading-page.component';
 
+import { FooterbarComponent } from './footerbar/footerbar.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MenubarComponent, TranslatePipe, TranslateDirective, LoadingPageComponent],
+  imports: [RouterOutlet, MenubarComponent, TranslatePipe, TranslateDirective, LoadingPageComponent, FooterbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -25,7 +27,7 @@ export class AppComponent {
     // Simule um tempo de carregamento
     setTimeout(() => {
       this.loadingComponent.hideLoading();
-    }, 5000); // tempo de 3 segundos
+    }, 3000); // tempo de 3 segundos
   }
 
   constructor(private translate: TranslateService) {
