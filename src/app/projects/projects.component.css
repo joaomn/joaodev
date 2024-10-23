@@ -52,4 +52,10 @@ background: rgba( 89, 98, 108, 0.95 );
 }
 
 
+@media (max-width: 950px) {
+  .mainbox {
+    overflow: scroll;
+  }
+}
+
 

@@ -1,0 +1,72 @@
+.card {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: auto;
+  max-width: 70%;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 66px 66px 66px 66px;
+  -moz-border-radius: 66px 66px 66px 66px;
+  -webkit-border-radius: 66px 66px 66px 66px;
+  border: 3px solid #3BDDC7;
+}
+
+
+
+.card-header {
+
+  color: rgb(116, 93, 93);
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  background: rgba( 3, 16, 13, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-body {
+  padding: 15px;
+  max-height: 600px;
+
+}
+
+.description {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+@media (max-width: 600px) {
+  .card {
+      max-width: 90%; /* Aumenta a largura máxima em telas pequenas */
+  }
+
+  .card-header {
+      font-size: 1.2em; /* Diminui o tamanho da fonte do cabeçalho */
+      padding: 12px; /* Diminui o padding */
+  }
+
+  .card-body {
+      padding: 10px; /* Diminui o padding do corpo */
+      overflow: scroll;
+  }
+
+  .description {
+      margin-bottom: 8px; /* Diminui o espaço entre descrições */
+  }
+}
+
+@media (max-width: 400px) {
+  .card-header {
+      font-size: 1em; /* Ajusta ainda mais o tamanho da fonte */
+      padding: 10px; /* Ajusta o padding */
+  }
+
+  .card-body {
+      padding: 8px; /* Diminui o padding do corpo */
+      overflow: scroll;
+  }
+}

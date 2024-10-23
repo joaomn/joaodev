@@ -14,7 +14,8 @@
             rgba(0, 0, 0, 0.09) 0px -32px 16px;
 
             gap: 5px;
-
+bottom: 0;
+width: 100%;
 }
 
 .card {
