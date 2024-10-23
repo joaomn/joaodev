@@ -2,9 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 95vh;
-  border-radius: 10px 10px 0 0;
   --s: 200px; /* control the size */
   --c1: #1d1d1d;
   --c2: #4e4f51;
@@ -51,5 +49,12 @@ background: rgba( 89, 98, 108, 0.95 );
   height: 100%;
 }
 
+
+@media (max-width: 950px) {
+  .mainbox {
+    overflow: scroll;
+    max-width: max-content;
+  }
+}
 
 

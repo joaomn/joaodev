@@ -76,9 +76,19 @@ margin: 5px;
   .mainbox {
     overflow: scroll;
   }
+
+  .video{
+    width: 260px;
+    height: 115px;
+ }
 }
 
 
 .curriculob{
   width: 100%;
+}
+
+.video{
+   width: 560px;
+   height: 315px;
 }
