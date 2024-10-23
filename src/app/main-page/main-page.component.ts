@@ -26,4 +26,17 @@ export class MainPageComponent {
     this.translate.use(lang);
   }
 
+
+  goToAbout() : void{
+    this.router.navigate(['/about'])
+  }
+
+  goToSkills() : void{
+    this.router.navigate(['/skills'])
+  }
+
+  goToProjects() : void{
+    this.router.navigate(['/projects'])
+  }
+
 }

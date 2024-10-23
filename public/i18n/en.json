@@ -5,6 +5,9 @@
   "MAIN": "I’m João Araújo, a passionate developer with a strong background in full-stack development. With a degree in Systems Analysis and Development, I’ve been honing my skills in technologies like Java, Spring Boot, AngularJS, VueJS, and databases such as MySQL, Postgres, and MongoDB.",
   "MAIN-2": "I’m always on the lookout for new challenges that foster continuous growth and deliver high-quality solutions. I believe that innovation stems from exchanging ideas and embracing diverse experiences, and my goal is to contribute to the success of projects that turn concepts into reality.",
   "MAIN-3": "Let’s connect and explore new opportunities to build the future together!",
-  "WELLCOME" : "I'm João Araújo, a full-stack developer with experience in technologies like Java, Spring Boot, AngularJS, and databases like MySQL and MongoDB. I'm always looking for new challenges and believe that innovation comes from sharing ideas and diverse experiences. Let's build the future together!"
+  "WELLCOME" : "I'm João Araújo, a full-stack developer with experience in technologies like Java, Spring Boot, AngularJS, and databases like MySQL and MongoDB. I'm always looking for new challenges and believe that innovation comes from sharing ideas and diverse experiences. Let's build the future together!",
+  "DOWNLOAD_CV" : "Download my Resume",
+  "ABOUT_BT": "Know me better"
+
 
 }

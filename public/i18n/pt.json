@@ -5,5 +5,8 @@
   "MAIN": "Sou João Araújo, um desenvolvedor apaixonado por tecnologia e inovação, com sólida experiência em desenvolvimento full-stack. Com formação em Análise e Desenvolvimento de Sistemas, venho aprimorando minhas habilidades em tecnologias como Java, Spring Boot, AngularJS, VueJS e bancos de dados como MySQL, Postgres e MongoDB.",
   "MAIN-2": "Estou sempre buscando por novos desafios que permitam o crescimento contínuo e a entrega de soluções de qualidade. Acredito que a inovação nasce da troca de ideias e da diversidade de experiências, e meu objetivo é contribuir para o sucesso de projetos que transformam ideias em realidade.",
   "MAIN-3" : "Vamos nos conectar e discutir novas oportunidades para construir o futuro juntos!",
-  "WELLCOME" : "Sou João Araújo, desenvolvedor full-stack com experiência em tecnologias como Java, Spring Boot, AngularJS e bancos de dados como MySQL e MongoDB. Estou sempre em busca de novos desafios e acredito que a inovação surge da troca de ideias e diversidade de experiências. Vamos construir o futuro juntos!"
+  "WELLCOME" : "Sou João Araújo, desenvolvedor full-stack com experiência em tecnologias como Java, Spring Boot, AngularJS e bancos de dados como MySQL e MongoDB. Estou sempre em busca de novos desafios e acredito que a inovação surge da troca de ideias e diversidade de experiências. Vamos construir o futuro juntos!",
+  "DOWNLOAD_CV" : "Baixe meu Curriculo",
+  "ABOUT_BT": "Me conheça Melhor"
+
 }

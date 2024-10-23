@@ -11,11 +11,18 @@
                 </p>
               </p-card>
             </div>
-            <div class="col-6">
+            <div class="col-4 sm-col-12">
               <div class="gap-3 flex">
-                <p-button  label="Sobre mim"  />
-                <p-button label="Minhas habilidades" />
-                <p-button label="COnheça meus projetos" />
+                <p-button (click)="goToAbout()" label="{{'ABOUT' | translate}}"  [raised]="true" severity="contrast" />
+                <p-button  (click)="goToSkills()" label="{{'SKILLS' | translate}}"  [raised]="true" severity="contrast" />
+                <p-button (click)="goToProjects()" label="{{'PROJECTS' | translate}}"  [raised]="true" severity="contrast" />
+              </div>
+            </div>
+            <div class="col-12 flex-auto justify-content-center m-4 w-full">
+              <div class="w-full">
+                <a href="/JoaoAraujoMeloNetoCurriculo.pdf" download="JoaoAraujo.pdf">
+                  <p-button class="w-full" label="{{'DOWNLOAD_CV' | translate}}" icon="pi pi-download" iconPos="right" [raised]="true" severity="info" />
+                </a>
               </div>
             </div>
           </div>
