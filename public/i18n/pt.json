@@ -10,6 +10,10 @@
   "ABOUT_BT": "Me conheça Melhor",
   "GIFIT" : "2 reais ou um Presente Misterioso?",
   "MONEY": "2 Reais",
-  "MISTERY" : "Presente Misterioso"
+  "MISTERY" : "Presente Misterioso",
+  "DELFOS" : "Delfos é uma plataforma de integração entre pessoas e empresas que prestam serviços e aquelas que os procuram. A plataforma visa estreitar a comunicação entre prestadores de serviço e clientes em busca desses serviços. As tecnologias envolvidas são: Java, Spring Boot, MySQL, Vue.js e Docker.",
+  "HEFESTO" : "Hefesto é uma aplicação IoT que tem como objetivo gerar controle da ergonomia no ambiente de trabalho por meio da mensuração, análise e disponibilização de um dashboard, além de exportação de dados em formato CSV de forma iterativa e dinâmica. As tecnologias envolvidas são: Java, Spring Boot, MySQL, Vue.js e Docker.",
+  "FAROL" : "O FarolAcad é um projeto mobile desenvolvido para uma universidade corporativa, repleto de funcionalidades que permitem a gestão de alunos, perguntas, respostas, cursos e provas, além da emissão de certificados ao término dos cursos, os quais são enviados diretamente por e-mail. A plataforma adota uma abordagem lúdica e gamificada para promover maior engajamento dos usuários. As tecnologias utilizadas no projeto incluem Java, Spring Boot, React Native, Expo, Docker e MySQL.",
+  "SNAKE" : " Projeto de estudo em Java GUI. Neste projeto, desenvolvi um jogo da cobrinha com sistema de pontuação, controlado pelas setas do teclado. As tecnologias utilizadas foram Java e Java Swing."
 
 }
