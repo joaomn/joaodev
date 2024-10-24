@@ -2,8 +2,71 @@
   <div class="mainbox">
     <div class="box-content">
 
-      <h1>skills</h1>
+      <div class="grid gap-2">
+        <div class="col-fixed shadow-6 video ">
+          <div class="text-center p-3 border-round-sm  font-bold">
+            <div class="text-center p-3 border-round-sm  font-bold">
+              <div *ngIf="gifit" class="cube-container">
+                <div class="cube">
+                  <div class="face front"><span>Angular 2+</span></div>
+                  <div class="face back">Docker</div>
+                  <div class="face right">Java</div>
+                  <div class="face left">Spring Boot</div>
+                  <div class="face top">RabbitMQ</div>
+                  <div class="face bottom">Vue.JS</div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-column gap-2">
+              <span>{{'GIFIT' | translate}}</span>
+              <p-toggleButton onIcon="" offIcon="" [(ngModel)]="gifit" onLabel="{{'MISTERY' | translate}}"
+                offLabel="{{'MONEY' | translate}}" styleClass="w-full sm:w-10rem" ariaLabel="Confirmation" />
+            </div>
+          </div>
+        </div>
+        <div class="col align-content-center w-full justify-content-center">
+          <div class="container ">
+            <div class="skill-box">
+              <span class="title">JAVA</span>
+
+              <div class="skill-bar">
+                <span class="skill-per html">
+                  <span class="tooltip">80%</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="skill-box">
+              <span class="title">ANGULAR</span>
+
+              <div class="skill-bar">
+                <span class="skill-per css">
+                  <span class="tooltip">70%</span>
+                </span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="title">SPRING BOOT</span>
+
+              <div class="skill-bar">
+                <span class="skill-per javascript">
+                  <span class="tooltip">80%</span>
+                </span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="title">RABBITMQ</span>
+
+              <div class="skill-bar">
+                <span class="skill-per nodejs">
+                  <span class="tooltip">30%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 </div>
-

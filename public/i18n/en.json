@@ -7,7 +7,10 @@
   "MAIN-3": "Let’s connect and explore new opportunities to build the future together!",
   "WELLCOME" : "I'm João Araújo, a full-stack developer with experience in technologies like Java, Spring Boot, AngularJS, and databases like MySQL and MongoDB. I'm always looking for new challenges and believe that innovation comes from sharing ideas and diverse experiences. Let's build the future together!",
   "DOWNLOAD_CV" : "Download my Resume",
-  "ABOUT_BT": "Know me better"
+  "ABOUT_BT": "Know me better",
+  "GIFIT": "2 bucks or a Mystery Gift?",
+  "MONEY": "2 bucks",
+  "MISTERY" : "Mystery Gift"
 
 
 }

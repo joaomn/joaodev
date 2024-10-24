@@ -2,9 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 95vh;
-  border-radius: 10px 10px 0 0;
   --s: 200px; /* control the size */
   --c1: #1d1d1d;
   --c2: #4e4f51;
@@ -27,7 +25,6 @@
 
 .mainbox{
   display: flex;
-  margin-top: 5rem;
   width: 90%;
   height: 85%;
   border: 2px solid #737575;
@@ -57,5 +54,178 @@ background: rgba( 89, 98, 108, 0.95 );
   }
 }
 
+.cube-container {
+  width: 200px;
+  height: 200px;
+  perspective: 800px;
+  margin: 50px auto;
+  transition: 0.8s ease-out;
+}
+
+.cube-container:hover {
+  transform: scale(2);
+}
+
+.cube {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate 8s infinite linear;
+}
+
+.face {
+  --french: linear-gradient(
+      to right,
+      #0000ff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ff0000
+    )
+    1;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 200px;
+  background: #000000cc;
+  border: 2px solid;
+  border-image: var(--french);
+}
+
+.front {
+  transform: translateZ(100px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+/* From Uiverse.io by Juanes200122 */
+.container {
+  width: 100%; /* Ocupará 100% da largura disponível */
+  height: 100%; /* Ocupará 100% da altura disponível */
+  max-width: 90%; /* Impede que ultrapasse o limite de largura */
+  max-height: fit-content; /* Impede que ultrapasse o limite de altura */
+  background: #ececec; /* Cor de fundo opcional */
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.container .skill-box {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  margin: 25px 0;
+}
+
+.skill-box .title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.skill-box .skill-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 6px;
+  background: #4070f4;
+  animation: progress 1s ease-in-out forwards; /* Aplica a animação */
+  opacity: 1;
+}
+
+.skill-per.html {
+  width: 80%; /* Define o valor final */
+  animation-delay: 0.1s;
+}
+
+.skill-per.css {
+  width: 70%; /* Define o valor final */
+  animation-delay: 0.1s;
+}
+
+.skill-per.javascript {
+  width: 80%; /* Define o valor final */
+  animation-delay: 0.2s;
+}
+
+.skill-per.nodejs {
+  width: 30%; /* Define o valor final */
+  animation-delay: 0.3s;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%; /* Inicia a animação com a barra vazia */
+  }
+  100% {
+    /* Não define um valor de largura fixa para evitar sobrescrever o valor final */
+  }
+}
+
+.skill-per .tooltip {
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: #4070f4;
+  z-index: 1;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+  background-color: #4070f4;
+  transform: translateX(-50%) rotate(45deg);
+}
 
 

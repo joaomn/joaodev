@@ -1,29 +1,37 @@
 <div class="dyn">
   <div class="mainbox">
     <div class="box-content">
-      <div class="grid gap-2">
+      <div class="grid gap-2 align-items-center">
         <div class="col-fixed shadow-6 video ">
-            <div class="text-center p-3 border-round-sm  font-bold">
-              <iframe *ngIf="isPt" width="560" height="315" src="https://www.youtube.com/embed/XtDjzvsG-CA?si=U_pjmxdnBHpMXMTe" title="Joao Araujo Apresentação Portugues" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              <iframe *ngIf="!isPt" width="560" height="315" src="https://www.youtube.com/embed/0UvPgXlEwA4?si=4fagTEHqhCmZOoli" title="Joao Araujo Apresentation English" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+          <div class="text-center p-3 border-round-sm  font-bold">
+            <iframe *ngIf="isPt" width="560" height="315"
+              src="https://www.youtube.com/embed/XtDjzvsG-CA?si=U_pjmxdnBHpMXMTe"
+              title="Joao Araujo Apresentacao Portugues" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe *ngIf="!isPt" width="560" height="315"
+              src="https://www.youtube.com/embed/0UvPgXlEwA4?si=4fagTEHqhCmZOoli"
+              title="Joao Araujo Apresentation English" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
         </div>
         <div class="col">
-            <div class="text-center p-3 border-round-sm  font-bold">
-              <p-card header="{{'ABOUT_BT' | translate}}">
-                <p>
-                  {{'MAIN' | translate}}
-                </p>
-                <p>
-                  {{'MAIN-2' | translate}}
-                </p>
-                <p>
-                  {{'MAIN-3' | translate}}
-                </p>
-              </p-card>
-            </div>
+          <div class="text-center p-3 border-round-sm  font-bold">
+            <p-card header="{{'ABOUT_BT' | translate}}">
+              <p>
+                {{'MAIN' | translate}}
+              </p>
+              <p>
+                {{'MAIN-2' | translate}}
+              </p>
+              <p>
+                {{'MAIN-3' | translate}}
+              </p>
+            </p-card>
+          </div>
         </div>
-    </div>
+      </div>
     </div>
   </div>
 </div>
