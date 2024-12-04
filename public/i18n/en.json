@@ -14,7 +14,7 @@
   "DELFOS" : "Delfos is a platform that connects service providers and businesses with people looking for their services. The platform aims to improve communication between service providers and those seeking services. The technologies involved are: Java, Spring Boot, MySQL, Vue.js, and Docker.",
   "HEFESTO" : "Hefesto is an IoT application aimed at controlling workplace ergonomics through measurement, analysis, and the provision of a dashboard, along with iterative and dynamic data export in CSV format. The technologies involved are: Java, Spring Boot, MySQL, Vue.js, and Docker.",
   "FAROL" : "FarolAcad is a mobile project developed for a corporate university, packed with features that allow the management of students, questions, answers, courses, and exams, as well as the issuance of certificates upon course completion, which are sent directly via email. The platform adopts a playful and gamified approach to promote greater user engagement. The technologies used in the project include Java, Spring Boot, React Native, Expo, Docker, and MySQL.",
-  "SNAKE" : "Java GUI study project. In this project, I developed a snake game with a scoring system, controlled by the keyboard's arrow keys. The technologies used were Java and Java Swing."
+  "SNAKE" : "Catrina is a chatbot focused on medicine, providing answers about infectious and parasitic diseases, as well as antibiotics. You can search by the name of the antibiotic, and it will give you information on its uses and the conditions it is therapeutically employed for."
 
 
 }
